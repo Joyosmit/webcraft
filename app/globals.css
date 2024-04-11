@@ -2,32 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+/* styles/globals.css */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'Biotif';
+  src: url('https://fonts.gstatic.com/s/biotif/v12/JveAGFL99-UxFEzKmfZSdw.woff2') format('woff2'),
+       url('https://fonts.gstatic.com/s/biotif/v12/JveAGFL99-UxFEzKmfZScQ.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
+/* styles/globals.css */
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: 'Acronym Extrabold';
+  src: url('../public/static/Acronym-ExtraBold.ttf') format('truetype');
+  font-weight: bold; /* Assuming the font file is extra bold */
+  font-style: normal;
 }
+/* styles/globals.css */
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+  font-family: 'Artica Medium';
+  src: url('https://cdn.example.com/fonts/Artica-Medium.woff2') format('woff2'),
+       url('https://cdn.example.com/fonts/Artica-Medium.woff') format('woff');
+  font-weight: 500; /* Medium weight (might need adjustment) */
+  font-style: normal;
+}
+/* styles/globals.css */
+
+@font-face {
+  font-family: 'Tuffy Bold';
+  src: url('https://cdn.example.com/fonts/Tuffy-Bold.woff2') format('woff2'),
+       url('https://cdn.example.com/fonts/Tuffy-Bold.woff') format('woff');
+  font-weight: bold; /* Assuming the font is bold */
+  font-style: normal;
 }

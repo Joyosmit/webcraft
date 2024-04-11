@@ -1,0 +1,27 @@
+.biotif-text {
+    font-family: Biotif, sans-serif;
+    /* background-color: aqua; */
+}
+
+.acronym-text {
+    font-family: 'Acronym Extrabold', sans-serif;
+}
+
+.artica-text {
+    font-family: 'Artica Medium', sans-serif;
+}
+
+.tuffy-text {
+    font-family: 'Tuffy Bold', sans-serif;
+}
+.main-text{
+    letter-spacing: 2px;
+}
+.image-container {
+    position: relative; /* Needed for proper border positioning */
+    overflow: hidden; /* Crop overflowing content */
+    width: 250px; /* Set container width (adjust as needed) */
+    height: 250px; /* Set container height (adjust as needed) */
+    border-radius: 50%; /* Make the container circular */
+    border: 2px solid black; /* Add black border */
+  }
