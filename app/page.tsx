@@ -5,10 +5,12 @@ import { PiGitForkLight } from "react-icons/pi";
 import { LuUsers } from "react-icons/lu";
 import { CircleDotIcon, Star } from "lucide-react";
 import { FaGit, FaGithub } from "react-icons/fa";
+import Head from 'next/head';
 
 export default function Home() {
     return (
         <main className="h-full w-full flex flex-col items-center justify-evenly">
+            
             {/* Heading text section */}
             <div className="w-full h-[40%] flex justify-evenly p-10 text-[70px]">
                 <div className="flex flex-col h-full w-[80%]  main-text">
@@ -34,7 +36,7 @@ export default function Home() {
                     <Card icon={<PiGitForkLight />} value={5} desc={"Forks"} />
                 </div>
                 <div className="h-full w-14 flex self-center  items-center justify-center">
-                    <FaGithub className="h-full w-full text-[#7e8ea5]"/>
+                    <FaGithub className="h-full w-full text-[#7e8ea5]" />
                 </div>
             </footer>
             <div className="w-full h-[30px] bg-[#e44c27] bottom-0 absolute" />
